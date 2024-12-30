@@ -1,43 +1,43 @@
 body{
+    background-color: gray;
+    line-height:28px; 
+    padding:5px;
+    margin:8px;
+
+    
+}
+.pad{
+    padding:5px;
+    margin-bottom:8px;
+}
+.border{
     border:2px solid black;
-    
-    padding:5px;
+    border-radius:12px;
 }
-header{
-    text-align:center;
-   
-}
-.heading{
-    text-align:center;
-    padding:5px;
-    background-color:yellow;
-    color:green;
-    text-decoration:underline;
-    margin-top:6px;
+
+.image{
+    height:200px;
+    width:200px;
+    border:2px solid transparent;
+    border-radius:100%;
+    background-image:url("photos.jpg");
+    background-size:cover;
     
+}
+.img{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+input,textarea{
+    background-color:gainsboro;
+}
+#btn{
+    width:30%;
 }
 footer{
     text-align:center;
-    background-color:black;
-    color:white;
     
-
-}
-.padd{
-    padding:5px;
-}
-.section1{
-    padding:5px;
-}
-
-#button{
-    width:50%;
-    color:white;
-    background-color:green;
-    font-size:12px;
-    padding:5px;
-
-}
-.wid{
-    width:50%
-}
+} 
