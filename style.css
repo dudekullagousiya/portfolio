@@ -24,12 +24,7 @@ body{
     background-size:cover;
     
 }
-.img{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    
-}
+
 
 input,textarea{
     background-color:gainsboro;
