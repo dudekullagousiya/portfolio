@@ -4,8 +4,27 @@ body{
     padding:5px;
     margin:8px;
 
-    
 }
+.heading{
+    text-align:center;
+}
+
+
+
+
+ .container{
+    display:flex;
+     justify-content:space-around; 
+ }
+ 
+ .box{
+    height:380px;
+    width:420px;
+    border:2px solid black;
+    text-align:center;
+    
+ }
+ 
 .pad{
     padding:5px;
     margin-bottom:8px;
@@ -13,6 +32,8 @@ body{
 .border{
     border:2px solid black;
     border-radius:12px;
+    margin:4px;
+   
 }
 
 .image{
@@ -22,6 +43,14 @@ body{
     border-radius:100%;
     background-image:url("photos.jpg");
     background-size:cover;
+    
+}
+.img{
+    display:flex;
+    justify-content:space-evenly;
+}
+.img p{
+    align-self:center;
     
 }
 
@@ -36,3 +65,7 @@ footer{
     text-align:center;
     
 } 
+
+
+
+
